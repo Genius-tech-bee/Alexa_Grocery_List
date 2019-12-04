@@ -33,7 +33,9 @@
                         "add {item} to the grocery list",
                         "need {item} for my grocery list",
                         "I want to buy {item}",
-                        "add to grocery list"
+                        "add to grocery list",
+                        "Please add {item} to my grocery list",
+                        "I want {item} on my grocery list"
                     ]
                 },
                 {
