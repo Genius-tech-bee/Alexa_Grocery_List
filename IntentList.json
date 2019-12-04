@@ -1,0 +1,57 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "grocery list",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Quit grocery list"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AddIntent",
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "AMAZON.Food"
+                        }
+                    ],
+                    "samples": [
+                        "add {item} to the grocery list",
+                        "need {item} for my grocery list",
+                        "I want to buy {item}",
+                        "add to grocery list"
+                    ]
+                },
+                {
+                    "name": "RemoveIntent",
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "AMAZON.Food"
+                        }
+                    ],
+                    "samples": [
+                        "take out {item} from the grocery list",
+                        "I don't want {item} anymore",
+                        "remove {item} from my grocery list"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
